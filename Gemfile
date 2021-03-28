@@ -38,3 +38,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Stripe - online transactions
 gem 'stripe'
+
+# Need to hide some keys in environmental variables
+gem 'dotenv-rails', :groups => [:development, :test]
